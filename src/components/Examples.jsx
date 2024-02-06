@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import { EXAMPLES } from "../data";
 import TabButton from "./TabButton";
@@ -31,7 +32,7 @@ export default function Examples() {
   return (
     <Section title="EXAMPLES" id="examples">
       <Tabs
-        ButtonsContainer="menu"
+        // ButtonsContainer="menu"
         buttons={
           <>
             <TabButton

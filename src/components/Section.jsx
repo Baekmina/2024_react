@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Section({ title, children, ...props }) {
   return (
     <section {...props}>
